@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "TaskProcess",
-    "slug": "TaskProcess",
+    "slug": "taskprocess",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "backgroundColor": "#311b6b",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.furkaanasik.taskprocess"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f971df38-6492-4baf-8cc9-8c7555cc81a3"
+      }
+    },
+    "owner": "furkaanasik"
   }
 }
